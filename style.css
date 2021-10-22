@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+.barra_navegacion{
+    margin-top: 40px;
+    justify-content: space-between;
+    display: flex;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+
+.barra_navegacion a{
+    font-family: "ITC Franklin Lt", sans-serif;
+    font-size: 1.2rem;
+    float: right;
+    margin-right: 2rem;
+    margin-top: -1%;
+    text-decoration: none;
+    color: #333333
+}
+
+.barra_navegacion a:hover{
+    color: red;
+    transition: color 400ms ease
+}
+
+.barra_navegacion li{
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 125px;
+    margin-bottom: 0.125em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #231f20;
+}
+
+
+.intro {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:25px;
+    margin-bottom: 2.5em;
+    max-width: 30em;
+    margin-left: 0;
+    line-height: 1.5em;
+}
+
+.boton{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    background: #f74545;
+    color: #fff;
+    padding: 0.7em 1em 0.7em;
+}
+
+a.boton:hover{
+    background:black;
+}
+
+body {
+    text-align: left;
+    color: #333;
+    font-display: auto;
+    font-weight: normal;
+    font-style: normal;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background-color: rgb(235, 244, 245);
+}
+
+.proyectos{
+    margin: auto;
+    float: left;
+    margin-top: 90px;
+    width: 500px;
+    margin-bottom: -15%;
+}
+
+.derecho{
+    margin-top: 275px;
+    margin-left: 130px;
+    
+
+}
+
+.imagen{
+    max-width: 110%;
+    width: auto;
+    margin-bottom: 1em;
+}
+
+h3 { 
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size: 2.5em;
+    margin: 0;
+   
+}
+
+.titulo-h3 {
+    text-decoration: none;
+    color: black;
+}
+
+.link-parrafo {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #333333
+}
+a.link-parrafo:hover{
+    color:#f74545;
+    transition: color 400ms ease
+
+}
+
+.centrar {
+    margin-bottom: 300px;
+    text-align: center
+}
+
+.morecase{
+    margin-bottom: 300px;
+    position: relative;
+    Top: 270px;
+}
+
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 125px;
+    color: #231f20;
+    background-color: #fff;
+    position: relative;
+    top: 150px;
+}
+
+.select{
+    width: 100%;
+}
+
+.imagenclientes {
+    width: 100%;
+}
+
+footer {
+    background-color: rgb(235, 244, 245);
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 67px;
+    text-align: center;
+    color: #231f20;
+    position: relative;
+    top: 40px;
+}
+
+.final {
+    text-align: right;  
+    position: relative;
+    bottom: 50px;
+}
+
+.ultimo{
+    text-align: center;
+    position: relative;
+    bottom: 75px;
+}
+
+.parr-foo {
+    text-align: center;
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 5px;
+    color:#333;
+}
+.enlace{
+    color:#333;
+    
+}
+a.enlace:hover {
+    color:#f74545;
+    transition: color 400ms ease;
+
+}
